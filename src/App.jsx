@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { Btn } from "./Btn.jsx";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+
 export default function App() {
   const [c1, setC1] = useState("");
   const [c2, setC2] = useState("");
